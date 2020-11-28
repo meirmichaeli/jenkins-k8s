@@ -13,6 +13,8 @@ This Jenkins has the required tools to work in and with Kubernetes
 ### Build the Jenkins Docker image
 You can build the image yourself
 ```bash
+# Clone the image using git
+$ git clone https://github.com/meirmichaeli/jenkins-k8s.git
 
 # Build the image
 $ docker build -t meirmichaeli/jenkins:v0.0.1 .
