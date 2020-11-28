@@ -1,3 +1,5 @@
+###This image and information below is based on https://github.com/anup1384/jenkins-k8s
+###You can also read https://medium.com/faun/deploying-and-scaling-jenkins-on-kubernetes-2cd4164720bd
 # Jenkins in Kubernetes
 This repository has a `Dockerfile` and a `helm` chart for setting up a simple Jenkins master for running in Kubernetes.
 
@@ -13,10 +15,10 @@ You can build the image yourself
 ```bash
 
 # Build the image
-$ docker build -t anuphnu/jenkins:v0.0.1 .
+$ docker build -t meirmichaeli/jenkins:v0.0.1 .
 
 # Push the image
-$ docker push anuphnu/jenkins:v0.0.1
+$ docker push meirmichaeli/jenkins:v0.0.1
 ```
 
 ### Deploy Jenkins helm chart to Kubernetes
