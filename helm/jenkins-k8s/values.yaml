@@ -20,10 +20,9 @@ image:
 
 master:
   adminUser: "admin"
-  adminPassword: "password"
+  adminPassword: "radware"
 
-
-# ## Set the admin user
+  # ## Set the admin user (Meir:below is base64 encoded value of admin)
 # adminUser: YWRtaW4
 # ## Make sure to replace the default password
 # adminPassword: cGFzc3dvcmQ

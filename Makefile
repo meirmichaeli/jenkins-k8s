@@ -1,0 +1,8 @@
+DOCKER_IMAGE_OWNER = 'meirmichaeli'
+DOCKER_IMAGE_NAME = 'jenkins'
+DOCKER_IMAGE_TAG = 'latest'
+
+.PHONY: build
+build:
+	docker build -t ${DOCKER_IMAGE_OWNER}/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG} ./
+	docker image ls ${DOCKER_IMAGE_OWNER}/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}
